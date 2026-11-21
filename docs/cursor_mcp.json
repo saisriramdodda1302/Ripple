@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "ripple": {
+      "command": "python",
+      "args": ["-m", "ripple.mcp_server"],
+      "env": {
+        "DATABASE_URL": "postgresql://ripple:ripple@localhost:5433/ripple"
+      }
+    }
+  }
+}
